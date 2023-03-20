@@ -47,8 +47,24 @@ header {
     font-weight: 400;
 }
 
-.login.button button{
+.login-button button{
     border: none;
-    background-color: black;
-    
+    background-color: black; 
+    padding: 15px 15px;
+    border-radius: 5px;  
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+
+}
+
+.mobile-menu-icon{
+   display: none; 
+}
+.mobile-menu{
+display: none;
 }
