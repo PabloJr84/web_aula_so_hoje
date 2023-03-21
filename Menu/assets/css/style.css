@@ -68,3 +68,30 @@ header {
 .mobile-menu{
 display: none;
 }
+@media screen and(max-width: 730px) 
+{
+.nav-bar {
+    padding: 1.5rem 4rem;
+}    
+.nav-item{
+    display: none;
+}
+.login-button{
+    display: block;
+}
+.mobile-menu-icon :no-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    padding-bottom: 1rem;
+}
+.mobile-menu .nav-item{
+    display: block;
+    padding-top: 1.2rem;
+}
+}
