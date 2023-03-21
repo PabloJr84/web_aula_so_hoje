@@ -94,4 +94,15 @@ display: none;
     display: block;
     padding-top: 1.2rem;
 }
+.mobile-menu .login-button{
+    display: block;
+    padding: 1rem 2rem;
+}
+.mobile-menu .login-button button{
+    width: 100%;
+}
+.open{
+    display: block;
+}
+
 }
